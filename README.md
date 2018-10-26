@@ -24,4 +24,4 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver 8080
 ```
-You're now good to go. Now open https://localhost:8080/ to it working.
+You're now good to go. Now open https://localhost:8080/ to see it working.
