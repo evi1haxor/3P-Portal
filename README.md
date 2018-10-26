@@ -13,3 +13,15 @@ It's been planned to open a web portal as **Community Complaint Portal (CCP)** w
 Using services available on *Azure*, we are also trying to include services like SOS messages, urgent emergency messages to the autorities. Such features could be used by the people who have certain information about it, example suppose you see an old building falling down and realise that there is a possiblity that their could be poeple inside it, in such case you can use the feature and your one click would notify all necessary departments on an alert notice to work immediately. <br>
 ### Prediction
 We are also trying to add some general services like weather forcasting and suggestions about the day, example like *"In Jodhpur today temperature can break the bars of colum so better carry a water bottle with you"* or maybe *"It is going to be a very heavy rain. Going out is not adviceable."*
+
+# Installation and running
+
+Run following script for setting the app up.
+```
+git clone https://github.com/evi1haxor/3P-Portal.git
+cd 3P-portal
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 8080
+```
+You're now good to go. Now open https://localhost:8080/ to it working.
